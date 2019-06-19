@@ -18,5 +18,5 @@ fig, axes = plt.subplots(nrows=1, ncols=2) #a way to avoid add axes method
 print(fig)
 print(axes) #is an array
 axes[0].plot(x,y) 
-axes[1].plot(y,x)
+axes[1].plot(y,x, color='purple', lw=3, ls=':') #lw ->linewidth - ls -> linestyle
 plt.show()
